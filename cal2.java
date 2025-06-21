@@ -19,7 +19,7 @@ public class cal2 {
             char op = parts[1].charAt(0);
             int b = Integer.parseInt(parts[2]);
 
-            if (a < 0 || a > 10 || b < 0 || b > 10) {
+            if (a < 1 || a > 10 || b < 1 || b > 10) {
                 System.out.println("Числа должны быть от 0 до 10");
                 return;
             }
